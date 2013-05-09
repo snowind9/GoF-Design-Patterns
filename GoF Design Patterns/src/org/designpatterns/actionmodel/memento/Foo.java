@@ -24,7 +24,7 @@ public class Foo {
         
         caretaker.revertLast(originator);
         
-        System.out.println(originator.getState());
+        System.out.println(originator.getState().getState());
 
     }
 
